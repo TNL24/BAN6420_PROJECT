@@ -1,0 +1,22 @@
+<!-- visualize.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualization</title>
+</head>
+
+<body>
+    <h1>Data Visualization</h1>
+
+    <h2>Ages with the Highest Income</h2>
+    <img src="{{ url_for('static', filename='ages_income.png') }}" alt="Ages with the Highest Income">
+
+    <h2>Gender Distribution Across Spending Categories</h2>
+    <img src="{{ url_for('static', filename='gender_expenses.png') }}"
+        alt="Gender Distribution Across Spending Categories">
+</body>
+
+</html>
